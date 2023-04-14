@@ -38,14 +38,14 @@ setup(
     long_description=readme + "\n\n" + history,
     include_package_data=True,
     # TODO: Update keywords and name to your library name
-    keywords="python_template",
-    name="python_template",
+    keywords="myproject",
+    name="myproject",
     # TODO: Update include statement in packages to your library modules
-    packages=find_packages(include=["python_template", "python_template.*"]),
+    packages=find_packages(include=["myproject", "myproject.*"]),
     test_suite="tests",
     tests_require=test_requirements,
     # TODO: Update url to the library's GitHub URL
-    url="https://github.com/tomvothecoder/python-template-repo",
+    url="https://github.com/tomvothecoder/myproject",
     version="0.1.0",
     zip_safe=False,
 )

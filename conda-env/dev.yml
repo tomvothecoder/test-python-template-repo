@@ -1,11 +1,9 @@
 # Conda environment for local development
 # Usage: <mamba|conda> env create -f conda-env/dev.yml
-# TODO: 1. Replace template in `name` with your library name
-name: template-dev
+name: myproject-dev
 channels:
     - conda-forge
     - defaults
-# TODO: 2. Update and add dependencies as needed
 dependencies:
     # ==========================================
     # Base - for building this package
@@ -30,5 +28,4 @@ dependencies:
     # Testing - for running unit tests
     # ==========================================
     - pytest
-# TODO: 3. Replace template in `prefix` with your library name
-prefix: /opt/miniconda3/env/template-dev
+prefix: /opt/miniconda3/env/myproject-dev

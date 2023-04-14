@@ -1,6 +1,6 @@
 # Conda environment for CI/CD (used in GH Actions)
 # TODO: 1. Replace template in `name` with your library name
-name: template-ci
+name: myproject-ci
 channels:
     - conda-forge
     - defaults
@@ -16,4 +16,4 @@ dependencies:
     # ==========================================
     - pytest
 # TODO: 3. Replace template in`prefix` with your library name
-prefix: /opt/miniconda3/envs/template-ci
+prefix: /opt/miniconda3/envs/myproject-ci
