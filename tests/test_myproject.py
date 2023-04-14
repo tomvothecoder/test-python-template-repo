@@ -4,7 +4,7 @@
 
 import pytest
 
-from python_template import python_template  # noqa: F401
+from myproject import myproject  # noqa: F401
 
 
 @pytest.fixture
